@@ -23,7 +23,7 @@ const App = () => {
     setSearchResult(filterResult.reverse());
   }, [items, search]);
 
-  const API_URL = " http://localhost:5000/todoapp";
+  const API_URL = " https://todo-yxvv.onrender.com";
   //  Fetch API - GET METHOD
 
   const fetchItem = async () => {
